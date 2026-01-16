@@ -11,6 +11,7 @@
         <Description>Add replica set to MongoDB when using Aspire</Description>
         <RepositoryUrl>https://github.com/joewashington75/AspireMongoDBReplicaSet</RepositoryUrl>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageId>DmitryNovik.ReplicaSet.Aspire.MongoDB</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
