@@ -3,7 +3,7 @@
 namespace ReplicaSet.Aspire.MongoDB;
 
 public class MongoReplicaSetResource(string name, IResourceWithConnectionString parent)
-    : Resource(name), IResourceWithConnectionString, IResourceWithParent<IResourceWithConnectionString>
+    : ContainerResource(name), IResourceWithConnectionString, IResourceWithParent<IResourceWithConnectionString>
 {
     /// <inheritdoc cref="IResourceWithConnectionString.ConnectionStringExpression"/>
     public ReferenceExpression ConnectionStringExpression
